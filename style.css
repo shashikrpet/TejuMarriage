@@ -14,7 +14,7 @@ body {
 
 /* HERO */
 .hero {
-  height: 50vh;
+  height: 30vh;
   background: linear-gradient(
     rgba(122,31,31,0.85),
     rgba(92,20,20,0.85)
