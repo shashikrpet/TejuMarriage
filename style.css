@@ -1,0 +1,138 @@
+:root {
+  --primary: #7a1f1f;
+  --secondary: #d4af37;
+  --light-bg: #fff6eb;
+  --dark: #2c2c2c;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Serif Kannada', serif;
+  background: linear-gradient(#fffaf4, #f2e7da);
+  color: var(--dark);
+}
+
+/* HERO */
+.hero {
+  height: 30vh;
+  background: linear-gradient(
+    rgba(122,31,31,0.85),
+    rgba(92,20,20,0.85)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.hero-overlay span {
+  color: var(--secondary);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #f5e8d6;
+}
+
+.date {
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+#countdown {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: white;
+}
+
+/* TITLES */
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 40px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--secondary);
+  margin: 10px auto 0;
+}
+
+.section-title.light {
+  color: white;
+}
+
+/* EVENTS */
+.event-wrapper {
+  background: var(--light-bg);
+  padding: 50px 30px;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.event-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  border-top: 6px solid var(--primary);
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-6px);
+}
+
+.event-card h4 {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* VENUE */
+.venue-section {
+  background: linear-gradient(to right, #7a1f1f, #4a1414);
+  padding: 70px 20px;
+  color: white;
+}
+
+.venue-text {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.btn-venue {
+  background: var(--secondary);
+  color: #3b2f2f;
+  padding: 12px 35px;
+  border-radius: 40px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-venue:hover {
+  background: #c9a227;
+}
+
+.blessings {
+  margin-top: 35px;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* FOOTER */
+.footer {
+  background: #3b2f2f;
+  color: white;
+  padding: 15px;
+}
